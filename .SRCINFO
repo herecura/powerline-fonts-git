@@ -1,0 +1,19 @@
+pkgbase = powerline-fonts-git
+	pkgdesc = Powerline fonts for X11 and the console
+	pkgver = 20130602.a6c24b7
+	pkgrel = 1
+	url = https://github.com/Lokaltog/powerline-fonts
+	install = powerline-fonts-git.install
+	arch = any
+	license = CPL
+	makedepends = git
+	depends = fontconfig
+	depends = xorg-font-utils
+	conflicts = powerline-fonts
+	source = git://github.com/Lokaltog/powerline-fonts.git
+	source = git://github.com/Lokaltog/powerline.git
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = powerline-fonts-git
+
