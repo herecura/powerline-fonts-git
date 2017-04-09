@@ -2,7 +2,7 @@
 # Maintainer: Devin Christensen <quixoten at gmail dot com>
 pkgname=powerline-fonts-git
 _gitname=powerline-fonts
-pkgver=20170407.a7fc2b8
+pkgver=20170408.a711e7b
 pkgrel=1
 pkgdesc="Powerline fonts for X11 and the console"
 arch=('any')
