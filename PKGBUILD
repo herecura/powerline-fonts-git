@@ -2,8 +2,8 @@
 # Maintainer: Devin Christensen <quixoten at gmail dot com>
 pkgname=powerline-fonts-git
 _gitname=powerline-fonts
-pkgver=20170917.3f3b0fb
-pkgrel=2
+pkgver=20171013.d70b156
+pkgrel=1
 pkgdesc="Powerline fonts for X11 and the console"
 arch=('any')
 url='https://github.com/Lokaltog/powerline-fonts'
