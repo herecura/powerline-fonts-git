@@ -3,7 +3,7 @@
 pkgname=powerline-fonts-git
 _gitname=powerline-fonts
 pkgver=20180102.d983af4
-pkgrel=1
+pkgrel=2
 pkgdesc="Powerline fonts for X11 and the console"
 arch=('any')
 url='https://github.com/Lokaltog/powerline-fonts'
@@ -11,7 +11,7 @@ license=('CPL')
 depends=('fontconfig' 'xorg-font-utils')
 makedepends=('git')
 conflicts=('powerline-fonts')
-provides=('ttf-hack')
+provides=('powerline-fonts' 'ttf-hack')
 install=$pkgname.install
 source=('git://github.com/Lokaltog/powerline-fonts.git'
 	'git://github.com/Lokaltog/powerline.git')
